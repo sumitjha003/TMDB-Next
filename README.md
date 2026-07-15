@@ -127,7 +127,8 @@ npm install
 ### 2️⃣ Configure Environment
 Create a `.env` file in the root directory:
 ```bash
-BACKEND_GRAPHQL_URL="https://tmdb-server-dev.logicwind.co/graphql"
+BACKEND_GRAPHQL_URL="https://your-graphql-api-url/graphql"
+NEXT_PUBLIC_GRAPHQL_URL="https://your-graphql-api-url/graphql"
 NEXTAUTH_URL="http://localhost:3000"
 NEXTAUTH_SECRET="your-super-secret-key"
 ```
